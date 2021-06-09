@@ -12,8 +12,9 @@ spec:
   selector:
     app: cicd-demo
   type: LoadBalancer
+ 
   ports:
-   -  protocol: TCP
-      port: 80
-      targetPort: 80
+    - nodePort: 31479
+      port: 8080
+      targetPort: 3000
      
