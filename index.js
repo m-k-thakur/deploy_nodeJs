@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('Manoj Kumar Thakur Manoj Kumar Thakur Manoj Kumar Thakur')
+  res.send('Manoj Kumar Thakur Sample Version 4')
 })
 
 app.get('/status', (req, res) => {
